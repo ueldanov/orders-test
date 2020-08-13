@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 },
                 'filter' => [true => 'Yes', false => 'No']
             ],
-            //'size',
+            'size',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
