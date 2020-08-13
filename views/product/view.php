@@ -36,7 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
             [
                 'attribute' => 'available',
                 'value' => function ($model) {
-                    return $model->available === true ? 'Yes' : 'No';
+                    return $model->available === 1 ? 'Yes' : 'No';
                 },
             ],
             'size',
